@@ -4,7 +4,7 @@ Code and data for the master's thesis *Spatial-Musical Control of a Musical Swar
 (Master's thesis in Informatics: Robotics and Artificial Intelligence, University of Oslo, 2026).
 
 The thesis examines how spatial properties of a three-dimensional Boids swarm relate to the
-musical structures produced when each agent is mapped to a MIDI voice. Release `v1.0.0`
+musical structures produced when each agent is mapped to a MIDI voice. Release `v1.2.0`
 contains the exact code and data that the results in the thesis are based on.
 
 ## Contents
