@@ -37,7 +37,7 @@ weight
 0.060   1.707533e+07  4.842193e+06      30.3341  2.1241  51.1141   6.8817          0.3827  0.0239       3.9538  0.1113
 0.070   1.797761e+07  6.444190e+06      27.6034  3.3796  42.9474   8.2045          0.3725  0.0172       4.1668  0.1097
 
-Implied mean speed in units per frame (active notes / 2.5, Section 8.1)
+Implied mean speed in units per frame (active notes / 2.5, Appendix A.1)
 weight
 0.000    0.53
 0.005    1.55

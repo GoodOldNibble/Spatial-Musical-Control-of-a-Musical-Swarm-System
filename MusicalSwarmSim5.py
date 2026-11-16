@@ -107,7 +107,7 @@ def get_system_dissonance(active_notes):
     if len(active_notes) < 2: 
         return 0.0
     
-    # Simplified dissonance weights per interval class, 0 to 11 semitones (Table 5.1).
+    # Simplified dissonance weights per interval class, 0 to 11 semitones (Table 4.1).
     # Intervals are reduced modulo 12, so this is a pitch-class dissonance measure.
     # 0: Unison, 1: m2, 2: M2, 3: m3, 4: M3, 5: P4, 6: Tritone, 7: P5, 8: m6, 9: M6, 10: m7, 11: M7
     weights = {0: 0.0, 1: 1.0, 2: 0.6, 3: 0.2, 4: 0.1, 5: 0.1, 

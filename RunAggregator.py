@@ -97,8 +97,8 @@ def process_swarm_data(directory="Data runs"):
     master_df = master_df.sort_values(['rq', 'parameter', 'weight', 'batch'])
     
     # Save the result
-    master_df.to_csv(script_dir + "/Data analysis/master_results_w_notes TEST.csv", index=False)
-    print(f"Success! Processed {len(master_df)} runs into master_results_w_notes TEST.csv")
+    master_df.to_csv(os.path.join(script_dir, "Data analysis", "master_results_w_notes.csv"), index=False)
+    print(f"Success! Processed {len(master_df)} runs into master_results_w_notes.csv")
     return master_df
 
 # Execute
